@@ -9,6 +9,7 @@
 // CONST
 define("NUMBER", "5465722454554412");
 
+// OUTPUT ON SCREEN
 if (defined('NUMBER')) {
     echo NUMBER;
 }
