@@ -16,7 +16,7 @@ echo "Дана задача: На школьной выставке $allPictures
 
 // Для того чтобы найти число картинок, выполненных красками, необходимо сложить 23+40=63, далее от 80 отнимем 63 и получим число 17. 17 картинок выполнены красками.
 
-$sum = $felTipPictures + $pencilPictures;
+$sum = $feltTipPictures + $pencilPictures;
 $paintsPictures = $allPictures - $sum;
 
 echo "Ответ: $paintsPictures";
