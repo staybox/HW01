@@ -7,21 +7,21 @@
  */
 
 // VARIABLES
-$Age = 30;
+$age = 30;
 
-if($Age >= 18 && $Age <= 65) {
+if($age >= 18 && $age <= 65) {
 
     echo "Вам еще работать и работать";
 }
-elseif ($Age > 65) {
+elseif ($age > 65) {
 
     echo "Вам пора на пенсию";
 }
-elseif ($Age >= 1 && $Age <= 17) {
+elseif ($age >= 1 && $age <= 17) {
 
     echo "Вам ещё рано работать";
 }
-elseif ($Age < 1) {
+elseif ($age < 1) {
 
     echo "Неизвестный возраст";
 }
