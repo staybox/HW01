@@ -8,8 +8,8 @@
 
 // VARIABLES
 
-$day = rand(1,7);
-
+//$day = rand(1,7);
+$day = 3;
 switch ($day) {
     case 1:
         echo "Это рабочий день";
@@ -19,19 +19,19 @@ switch ($day) {
         break;
     case 3:
         echo "Это рабочий день";
-        break;
+        //break;
     case 4:
         echo "Это рабочий день";
-        break;
+        //break;
     case 5:
         echo "Это рабочий день";
-        break;
+        //break;
     case 6:
         echo "Это выходной день";
-        break;
+        //break;
     case 7:
         echo "Это выходной день";
-        break;
+        //break;
     default:
         echo "Неизвестный день";
 }
