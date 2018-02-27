@@ -17,8 +17,7 @@ while ($count >= 0) {
 
     echo $array[$count];
     $count--;
-    $implode = implode("|", $array);
-    print_r($implode);
+    echo implode(",", ["|"]);
 }
 
 
