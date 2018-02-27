@@ -21,4 +21,6 @@ switch ($day) {
         break;
     case 7:
         echo "Это выходной день";
+    default:
+        echo "Неизвестный день";
 }
