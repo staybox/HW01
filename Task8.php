@@ -12,7 +12,7 @@ $array = explode(" ", $str);
 print_r($array);
 
 $count = count($array)-1;
-
+$result = [];
 while ($count >= 0) {
 
     echo $array[$count];
