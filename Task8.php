@@ -22,16 +22,3 @@ while ($count >= 0) {
 
 
 
-
-
-
-
-
-/*
-$implode = implode("|", $array);
-
-
-foreach ($array as $item) {
-    echo $item;
-}
-*/
