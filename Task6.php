@@ -6,9 +6,9 @@
  * Time: 23:33
  */
 
-    $bmw = ["model" => "X5", "speed" => 120, "doors" => 5, "year" => 2015];
-    $toyota = ["model" => "Corolla", "speed" => 95, "doors" => 4, "year" => 1987];
-    $opel = ["model" => "Astra", "speed" => 290, "doors" => 6, "year" => 1953];
+$bmw = ["model" => "X5", "speed" => 120, "doors" => 5, "year" => 2015];
+$toyota = ["model" => "Corolla", "speed" => 95, "doors" => 4, "year" => 1987];
+$opel = ["model" => "Astra", "speed" => 290, "doors" => 6, "year" => 1953];
 
 $cars = [
     "Машина BMW" => $bmw,
@@ -21,14 +21,3 @@ foreach ($cars as $car) {
         echo "$key:$value\n";
     }
 }
-
-
-/*
-$bmw = "Машина BMW";
-$toyota = "Машина Toyota";
-$opel = "Машина Opel";
-
-$array = compact("bmw", "toyota", "opel");
-
-print_r($array);
-*/
