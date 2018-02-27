@@ -9,13 +9,13 @@
 $str = "Три ключевых принципа ПО, которые вы должны понимать";
 echo $str . "\n";
 $array = explode(" ", $str);
-print_r($array);
+//print_r($array);
 
 $count = count($array)-1;
 $result = [];
 while ($count >= 0) {
 
-    echo $array[$count];
+    echo $result = $array[$count];
     $count--;
     echo implode(",", ["|"]);
 }
