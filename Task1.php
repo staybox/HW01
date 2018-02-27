@@ -6,14 +6,12 @@
  * Time: 21:20
  */
 
-// CONST
-define("NAME", "Андрей");
-define("AGE", "30");
+// VARIABLES
+$name = "Андрей";
+$age = 30;
 
 // OUTPUT ON SCREEN
 
-echo "Меня зовут: " . NAME . "\n";
-echo "Мне " . AGE . " лет" . "\n";
+echo "Меня зовут: $name\n";
+echo "Мне $age лет\n";
 echo "\"!|\/'\"\\";
-
-exit;
