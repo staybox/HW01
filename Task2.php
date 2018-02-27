@@ -6,7 +6,7 @@
  * Time: 21:47
  */
 
-// Variables
+// VARIABLES
 $all_pictures = 80;
 $felt_tip_pictures = 23;
 $pencil_pictures = 40;
@@ -20,5 +20,3 @@ $sum = $felt_tip_pictures + $pencil_pictures;
 $paints_pictures = $all_pictures - $sum;
 
 echo "Ответ: $paints_pictures";
-
-exit;
