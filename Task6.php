@@ -5,7 +5,7 @@
  * Date: 26.02.2018
  * Time: 23:33
  */
-
+/*
 $cars = array(
 
     array ("model" => "X5", "speed" => 120, "doors" => 5, "year" => 2015),
@@ -19,3 +19,13 @@ foreach ($cars as $car) {
         echo "$key:$value\n";
     }
 }
+*/
+
+$bmw = "Машина BMW";
+$toyota = "Машина Toyota";
+$opel = "Машина Opel";
+
+$array = compact("bmw", "toyota", "opel");
+
+print_r($array);
+
